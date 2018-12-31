@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" id="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CrazyBird</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    #canvas{
+      margin: 0 auto;
+      display: block;
+      background: -webkit-linear-gradient(top,skyblue,#fff);;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas" width="800" height="500"></canvas>
+
+  <script>
+    document.getElementById("canvas").width = document.documentElement.clientWidth;
+    document.getElementById("canvas").height = document.documentElement.clientHeight;
+  </script>
+  <script src="./build/bundle.js"></script>
+</body>
+</html>
